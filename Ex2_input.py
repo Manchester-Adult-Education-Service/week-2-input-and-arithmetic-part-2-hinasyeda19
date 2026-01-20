@@ -41,7 +41,9 @@ print("-------------------------------------------\n"
 # 3. Print: "Hello [name]! You said you are [age_text] years old."
 
 # Write your code below:
-
+Name = input("What's your Name: ")
+age_text = input("what's your age: ")
+print(f"Hello {Name}! you said you are {age_text} years old.")
 
 # -------------------------------------------
 # Task 2: Data Types and Conversion
@@ -67,6 +69,8 @@ print("\n-------------------------------------------\n"
 
 # Write your code below:
 
+age= int(input("What's your age? "))
+print(f"you will be {age + 2} in next 2 years")
 
 # -------------------------------------------
 # Task 3: Customising the Experience
@@ -89,7 +93,9 @@ print("\n-------------------------------------------\n"
 # 3. Use .capitalize() on the food and song variables.
 
 # Write your code below:
-
+food = input("What's your favourite food: ")
+song = input("What's your favourite Song: ")
+print (f" your favourite food is a {food} and favourite song is {song} ")
 
 # -------------------------------------------
 # CHECKPOINT: GIT COMMIT
@@ -124,6 +130,8 @@ print("\n-------------------------------------------\n"
 # Print: "You are at least [X] months old!"
 
 # Write your code below:
+age= int(input("What's your age? "))
+print(f"you are at least {age * 12} months old!")
 
 
 # Extension 2: Name Lengths
@@ -137,6 +145,9 @@ print("\n-------------------------------------------\n"
 # Print: "[City] has [X] letters in its name."
 
 # Write your code below:
+city= input("What's your favourite city? ")
+citycharacters = len(city)
+print(f"{city} has {citycharacters} letters in its name.")
 
 
 # Extension 3: The Area Calculator
@@ -150,6 +161,7 @@ print("\n-------------------------------------------\n"
 # and print the total area.
 
 # Write your code below:
+
 
 
 # -------------------------------------------
